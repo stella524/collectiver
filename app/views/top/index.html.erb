@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Collectiver</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+  <body>
+    <header class="header">
+      <p class="site-title-sub">--- Web application portfolio ---</p>
+      <h1 class="site-title">My Works</h1>
+      <p class="site-description">Check out my some of my works!!</p>
+      <div class="buttons">
+        <a class="button" href="#about">Learn More</a>
+        <a class="button button-orange" href="#contact">SEND MESSAGE</a>
+      </div>
+    </header>
+    
+    <section class="about" id="about">
+      <h2 class="heading">PROFILE</h2>
+      <p class="about-text">Hi!! Dear Visitor.
+      Thank you for your coming.
+      This is my portfolio collective site.
+      
+      </p>
+    </section>
+    
+    <section class="works">
+      <h2 class="heading">My works</h2>
+      <div class="works-wrapper">
+        <div class="work-box">
+          <%= image_tag "cafeapp.png", :class => "work-image" %>
+          <div class="work-description">
+            Cafeapp<br>
+            <a href="https://sheltered-oasis-55987.herokuapp.com/" 
+            class="button button-ghost" target="_blank">READ MORE</a>
+          </div>
+        </div>
+        
+        <div class="work-box">
+      <img class="work-image" src="#" alt="制作事例">
+      <div class="work-description">
+        coming soon<br>
+        <a href="#" class="button button-ghost">READ MORE</a>
+      </div>
+    </div>
+    
+    <div class="work-box">
+      <img class="work-image" src="#" alt="制作事例">
+      <div class="work-description">
+        coming soon<br>
+        <a href="#" class="button button-ghost">READ MORE</a>
+      </div>
+    </div>
+    
+    
+      </div>
+    </section>
+    
+    <section class="contact" id="contact">
+      <div class="contact-form">
+        <input type="text" name="name" placeholder="Name">
+        <textarea name="message" placeholder="Message"></textarea>
+        <input type="submit" value="Send">
+      </div>
+    </section>
+  </body>
+</html>
