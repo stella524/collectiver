@@ -6,7 +6,7 @@ body {
     color: #fff;
     text-align: center;
     font-size: 1rem;
-    background: url('cityimage.jpg') fixed;
+    background: url('/assets/cityimage.jpg') fixed;
     background-size: cover;
 }
 
