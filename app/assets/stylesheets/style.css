@@ -182,8 +182,7 @@ body {
   }
   body{
     width:100vw;
-    background: url('/assets/cityimage.jpg') fixed;
-    background-size: contain;
+    background: url('/assets/cityimage.jpg')　fixed;
     color: #fff;
     text-align: center;
     font-size: 1rem;
