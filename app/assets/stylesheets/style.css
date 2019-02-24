@@ -177,12 +177,24 @@ body {
   *{
     box-sizing:border-box;
   }
+  body::before {
+  content: "";
+  background: url('/assets/cityimage.jpg') no-repeat center center;
+  background-size: cover;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
   html{
     width:100vw;
   }
   body{
     width:100vw;
-    background: url('/assets/cityimage.jpg')　fixed;
+    /*background: url('/assets/cityimage.jpg')　fixed;*/
     color: #fff;
     text-align: center;
     font-size: 1rem;
