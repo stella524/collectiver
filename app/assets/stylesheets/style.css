@@ -172,3 +172,86 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 670px){
+  *{
+    box-sizing:border-box;
+  }
+  html{
+    width:100vw;
+  }
+  body{
+    width:100vw;
+    background: url('/assets/cityimage.jpg') fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .header{
+    
+    padding: 70px 0px 0px;
+  }
+  .site-title-sub {
+    margin: 0 0 10px;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    
+  }
+  .about {
+  height: 100vh;
+  padding: 50px 0px 0px;
+  color: lightgray;
+  }
+  
+  .heading {
+    display: inline-block;
+    position: relative;
+    margin: 10px 0px 5px;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    border-bottom: double 4px #999;
+}
+  .about-text {
+  width:80vw;
+  word-wrap: break-word;
+  color: lightgray;
+  }
+  
+  .works {
+  height: 100%;
+  background-color: rgba(100, 100, 100, 0.2);
+  
+  padding:50px 0px 0px;
+  }
+
+  .works-wrapper {
+    display: table;
+    width: 80vw;
+    margin: 50px auto 50px;
+    table-layout: fixed;
+  }
+  
+  .work-box {
+    position: relative;
+    display: block;
+    background-color: rgba(100, 100, 100, 0.3);
+    border: 1px solid #333;
+  }
+  
+  .work-image {
+    display: block;
+    width: 100%;
+  }
+  
+  .work-description {
+    margin: 20px 0;
+  }
+  
+  .work-description .button {
+    width: 60%;
+    margin-top: 20px;
+    padding: 3px;
+  }
+}
