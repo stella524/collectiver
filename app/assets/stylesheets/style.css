@@ -133,9 +133,10 @@ body {
   margin-bottom: 10px;
   padding: 15px;
   outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid #333;
   border-radius: 0;
   color: #333;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .contact-form textarea {
   height: 150px;
@@ -264,5 +265,9 @@ body {
     width: 60%;
     margin-top: 20px;
     padding: 3px;
+  }
+  .contact-form input[type=text], .contact-form textarea{
+  border: 1px solid #333;
+  background-color: rgba(255, 255, 255, 0.8);
   }
 }
